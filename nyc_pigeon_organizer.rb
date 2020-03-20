@@ -42,6 +42,5 @@ def nyc_pigeon_organizer(data)
       pigeon_list[name][:lives] << c 
     end 
   end 
-  
   pigeon_list
 end 
