@@ -13,3 +13,4 @@ def nyc_pigeon_organizer(data)
     pigeon_list[i][:gender] = {}
     pigeon_list[i][:lives] = {}
   end 
+end 
