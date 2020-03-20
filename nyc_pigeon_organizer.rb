@@ -7,4 +7,6 @@ def nyc_pigeon_organizer(data)
   end 
   mid_pigeon_names = pigeon_names.flatten!
   final_names = mid_pigeon_names.uniq
-  
+  final_names.each do |i|
+    pigeon_list[i] = {}
+  end 
