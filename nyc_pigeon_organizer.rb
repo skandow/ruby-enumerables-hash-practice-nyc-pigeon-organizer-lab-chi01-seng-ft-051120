@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       if !pigeon_list[pigeon_name]
         pigeon_list[pigeon_name][:color] = []
       end 
-        pigeon_list[pigeon_name][:color] << "#{data_color[colour][1]}"
+        pigeon_list[pigeon_name][:color] << "#{data_color[colour][0]}"
       end 
     end
 end
