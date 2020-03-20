@@ -28,17 +28,17 @@ def nyc_pigeon_organizer(data)
     list_of_lives << y[0]
   end 
   list_of_colors.each do |a|
-    pigeon_data[:color][a].each do |name|
+    data[:color][a].each do |name|
       pigeon_list[name][:color] << "#{a}" 
     end 
   end
   list_of_genders.each do |b|
-    pigeon_data[:gender][b].each do |name|
+    data[:gender][b].each do |name|
       pigeon_list[name][:gender] << "#{b}"
     end 
   end 
   list_of_lives.each do |c|
-    pigeon_data[:lives][c].each do |name|
+    data[:lives][c].each do |name|
       pigeon_list[name][:lives] << c 
     end 
   end 
