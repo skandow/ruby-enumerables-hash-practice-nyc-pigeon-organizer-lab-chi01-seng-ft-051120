@@ -9,4 +9,5 @@ def nyc_pigeon_organizer(data)
       end 
         pigeon_list[pigeon_name][:color] << "#{data_color[colour][1]}"
       end 
+    end
 end
