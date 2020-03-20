@@ -6,9 +6,10 @@ def nyc_pigeon_organizer(data)
     colour[1].each do |name|
       pigeon_name = name 
       if !pigeon_list[name][:color]
-        pigeon_list[name][:color] = [color_name]
+        pigeon_list[name][:color] = []
+        pigeon_list[name][:color] << color_name
       else 
-        pigeon_list[name][:color] << [color_name]
+        pigeon_list[name][:color] << color_name
       end 
     end 
   end
