@@ -5,3 +5,4 @@ def nyc_pigeon_organizer(data)
   data_color.each do |n|
     pigeon_names << n[1]
   end 
+  mid_pigeon_names = pigeon_names.flatten!
