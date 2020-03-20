@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  data_color_stretch = data[:color]{|pair| pair}
+  data_color = data[:color]
   pigeon_list = {}
   
   
