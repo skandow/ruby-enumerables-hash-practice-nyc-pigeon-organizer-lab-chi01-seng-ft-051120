@@ -5,8 +5,6 @@ def nyc_pigeon_organizer(data)
     data_color[colour][2].each do |name| 
       if !pigeon_list[name]
         pigeon_list[name][:color] = []
-        pigeon_list[name][:color] << data_color[colour][1].to_s
-      else 
-        pigeon_list[name][:color] <<
-  
+      end 
+        pigeon_list[name][:color] << "#{data_color[colour][1]}"
 end
