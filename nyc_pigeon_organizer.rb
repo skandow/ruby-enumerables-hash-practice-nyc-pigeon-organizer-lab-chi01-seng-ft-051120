@@ -6,3 +6,5 @@ def nyc_pigeon_organizer(data)
     pigeon_names << n[1]
   end 
   mid_pigeon_names = pigeon_names.flatten!
+  final_names = mid_pigeon_names.uniq
+  
