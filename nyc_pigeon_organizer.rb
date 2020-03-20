@@ -14,9 +14,9 @@ def nyc_pigeon_organizer(data)
   final_names = mid_pigeon_names.uniq
   final_names.each do |i|
     pigeon_list[i] = {}
-    pigeon_list[i][:color] = {}
-    pigeon_list[i][:gender] = {}
-    pigeon_list[i][:lives] = {}
+    pigeon_list[i][:color] = []
+    pigeon_list[i][:gender] = []
+    pigeon_list[i][:lives] = []
   end 
   data_color.each do |i|
       list_of_colors << i[0]
@@ -27,6 +27,10 @@ def nyc_pigeon_organizer(data)
   data_lives.each do |y|
     list_of_lives << y[0]
   end 
+  list_of_colors.each do |a|
+    pigeon_data[:color][a].each do |name|
+      pigeon_list[name][:color] 
+      
   
   pigeon_list
 end 
