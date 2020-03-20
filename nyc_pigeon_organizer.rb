@@ -1,4 +1,4 @@
 def nyc_pigeon_organizer(data)
-  data_stretch = data.each {|pair| pair}
+  data_stretch = data.each{|pair| pair}
   
 end
