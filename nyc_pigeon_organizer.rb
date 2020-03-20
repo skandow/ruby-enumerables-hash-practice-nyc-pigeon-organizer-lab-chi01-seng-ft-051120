@@ -1,5 +1,7 @@
 def nyc_pigeon_organizer(data)
   data_color = data[:color].to_a
+  data_gender = data[:gender].to_a
+  data_lives = data[:lives].to_a 
   pigeon_list = {}
   pigeon_names = []
   data_color.each do |n|
@@ -13,5 +15,7 @@ def nyc_pigeon_organizer(data)
     pigeon_list[i][:gender] = {}
     pigeon_list[i][:lives] = {}
   end 
+  list_of_colors = []
+  
   pigeon_list
 end 
