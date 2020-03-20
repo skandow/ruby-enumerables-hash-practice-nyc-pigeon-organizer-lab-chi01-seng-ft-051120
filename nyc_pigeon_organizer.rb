@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
     list_of_genders << x[0]
   end 
   data_lives.each do |y|
-    list_of_lives << |y|
+    list_of_lives << y[0]
   end 
   
   pigeon_list
